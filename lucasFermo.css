@@ -1,0 +1,455 @@
+﻿html
+{
+    min-width:100%;
+    height:100%
+}
+body {
+
+    background-color: #d8dfea;
+    
+}
+#sheetWelcome1
+{
+    position:relative;
+    width:1370px;
+    height: 400px;
+    left:-10px;
+    top:95px;
+    background-color:#6d84b4;
+    transition:ease 1s;
+    opacity:1;
+}
+#sheetWelcome2
+{
+    position:absolute;
+    width:1370px;
+    height: 400px;
+    left:-10px;
+    top:100px;
+    background-color:#6d84b4;
+    opacity:0;
+    transition:ease 1s;
+    pointer-events:none;
+}
+#bigWelcome
+{
+    position:absolute;
+    left: 220px;
+    top: -20px;
+    font-size: 130px;
+    color:white;
+    font-family:Calibri;
+    opacity: 0;
+    transition:ease 1s;
+}
+#textBox
+{
+    position: absolute;
+    left: 875px;
+    top:40px;
+    background-color:;
+    width:200px;
+    height:220px;
+    border: 2px solid white  ;
+    font-size: 25px;
+    padding:15px;
+    color:white;
+    font-family: Calibri;
+    opacity: 0;
+    transition: ease 1s;
+}
+#btnContinue
+{
+    position: absolute;
+    left:950px;
+    top:250px;
+    width:80px;
+    height:40px;
+    color: white;
+    background-color:#3b5998;
+    border: 1px solid #3b5998;
+    opacity: 0;
+    transition: ease 1s;
+    text-align:center;
+}
+
+
+#hide
+{
+    opacity:0;
+}
+#lucas{
+    position: absolute;
+    height: 400px;
+    font-size: 170px;
+    color:white;
+    font-family: Calibri;
+    left: 100px;
+    top: 30px;
+    z-index: 0;
+
+}
+#fermo
+{
+    position: absolute;
+    height: 400px;
+    font-size: 170px;
+    color:white;
+    font-family: Calibri;
+    left: 100px;
+    top: 160px;
+}
+.class1
+{
+    position: relative;
+    width:80px;
+    height:13px;
+    top:16px;
+    left:630px;
+    top: 20px;
+    padding: 20px;
+    display: inline-block;
+    z-index: 1;
+    text-align:center;
+    color:white;
+    background-color:;
+    border-left: 3px solid 	white;
+    border-right:3px solid 	white;
+    border-top: 3px solid 	white;
+    transition: ease 1s;
+    opacity: 0.3;
+
+}
+
+#profileBox
+{
+    position:absolute;
+    background-color:;
+    border: 3px solid white;
+    width:640px;
+    height:280px;
+    left: 630px;
+    top: 75px;
+    pointer-events:none;
+}
+#profileInfo
+{
+    position:absolute;
+    top: 25px;
+    padding:5px;
+    font-size: 22px;
+    font-family: Calibri;
+    text-align: center;
+    color: #dfe3ee;
+    pointer-events:none;
+    
+}
+#keyBox
+{
+    position:absolute;
+    background-color: ;
+    border: 3px solid white;
+    width:640px;
+    height:280px;
+    left: 630px;
+    top: 75px;
+    opacity: 0;
+    color: #dfe3ee;
+    font-family:Calibri;
+}
+.keyDiv
+{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    height: 20px;
+    width: 130px;
+    display:inline-block;
+    border: 3px solid #dfe3ee;
+    text-align: center;
+}
+#keyLeft
+{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 10px;
+    top: 60px;
+    font-size: 25px;
+    text-align:center;
+    background-color:;
+    opacity: 1;
+}
+#keyRight
+{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 300px;
+    top: 60px;
+    font-size: 25px;
+    text-align: center;
+    background-color: ;
+    opacity:1;
+}
+#languagesInfo
+{
+    position: absolute;
+    left: 60px;
+    top: 70px;
+    line-height:45px;
+    font-size: 30px;
+    opacity: 0;
+
+}
+#programmingLeft
+{
+   position: absolute;
+    width: 320px;
+    height: 200px;
+    left: 0px;
+    top: 70px;
+    font-size: 25px;
+    line-height: 35px;
+    text-align:center;
+    background-color:;
+    opacity: 0;
+
+}
+#programmingRight
+{
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    left: 320px;
+    top: 70px;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    background-color: ;
+    opacity:0;
+}
+#programmingBottom
+{
+    position:absolute;
+    left: -5px;
+    top: 200px;
+    width: 640px;
+    text-align:center;
+    font-size: 25px;
+    opacity: 0;
+}
+.workDiv
+{
+    position:relative;
+    left: 20px;
+    top: 15px;
+    width: 130px;
+    height:20px;
+    background-color:;
+    border: 3px solid #dfe3ee;
+    display:inline-block;
+    text-align: center;
+}
+.shaded
+{
+    background-color:#dfe3ee;
+    color:#6d84b4;
+}
+#lowesTitle
+{
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    font-size: 30px;
+    font-family:Calibri;
+    opacity:0;
+}
+#lowesJob
+{
+    position:absolute;
+    top:75px;
+    left:20px;
+    font-size:30px;
+    font-family: Calibri;
+    opacity:0;
+}
+#lowesInfo
+{
+    position:absolute;
+    top: 120px;
+    left: 20px;
+    font-size: 20px;
+    font-family:Calibri;
+    line-height: 30px;
+    opacity:0;
+
+}
+#margaritaTitle
+{
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    font-size: 30px;
+    font-family:Calibri;
+}
+#margaritaJob
+{
+     position:absolute;
+    top:75px;
+    left:20px;
+    font-size:30px;
+    font-family: Calibri;
+}
+#margaritaInfo
+{
+    position:absolute;
+    top: 120px;
+    left: 20px;
+    font-size: 20px;
+    font-family:Calibri;
+    line-height: 30px;
+}
+#workBox
+{
+    position:absolute;
+    background-color: ;
+    border: 3px solid white;
+    width:640px;
+    height:280px;
+    left: 630px;
+    top: 75px;
+    opacity:0;
+    color: #dfe3ee;
+   
+}
+#educationBox
+{
+    position:absolute;
+    background-color: ;
+    border: 3px solid white;
+    width:640px;
+    height:280px;
+    left: 630px;
+    top: 75px;
+    opacity: 0
+}
+#brock
+{
+    position:absolute;
+    height: 20px;
+    width: 450px;
+    left: 20px;
+    top: 50px;
+    font-size: 30px;
+    font-family: Calibri;
+    color: #d8dfea;
+
+}
+#bachelor
+{
+    position: absolute;
+    height: 60px;
+    width: 500px;
+    top: 130px;
+    left: 20px;
+    font-family:Calibri;
+    font-size: 25px;
+    color: #d8dfea;
+
+}
+#badger
+{
+    position:absolute;
+    width: 200px;
+    height:200px;
+    left: 385px;
+    top: 25px;
+}
+#contactBox
+{
+    position:absolute;
+    background-color: ;
+    border: 3px solid white;
+    width:640px;
+    height:280px;
+    left: 630px;
+    top: 75px;
+    opacity: 0;
+}
+#contactInfo
+{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 50px;
+    left: 25px;
+    font-size: 40px;
+    color: #d8dfea;
+    font-family:Calibri;
+
+
+}
+.bordered
+{
+    opacity: 1;
+}
+.half
+{
+    opacity: 0.5;
+}
+.block
+{
+
+    background-color:#6d84b4;
+    height: 20px;
+    width: 120px;
+    opacity: 0;
+
+}
+#block1
+{
+    position:absolute;
+    left: 633px;
+    top: 60px;
+    opacity:1;
+   
+    
+}
+#block2
+{
+    position:absolute;
+    left: 763px;
+    top: 60px;
+    
+    
+}
+#block3
+{
+    position:absolute;
+    left: 893px;
+    top: 60px;
+   
+  
+}
+#block4 {
+    position:absolute;
+    left: 1023px;
+    top: 60px;
+    
+    
+}
+#block5
+{
+    position:absolute;
+    left: 1154px;
+    top: 60px;
+    
+   
+}
+
+.full
+{
+    opacity:1;
+    text-decoration: underline;
+}
