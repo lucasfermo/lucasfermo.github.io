@@ -11,19 +11,23 @@ body {
 #sheetWelcome1
 {
     position:relative;
-    width:1370px;
-    height: 400px;
-    left:-10px;
-    top:95px;
+    width: 102%;
+    height: 100%;
+    left: -10px;
+    top:100px;
     background-color:#6d84b4;
     transition:ease 1s;
     opacity:1;
+    min-width: 1000px;
+    min-height: 400px;
 }
 #sheetWelcome2
 {
     position:absolute;
-    width:1370px;
-    height: 400px;
+    width: 102%;
+    height:100%;
+    min-width:1050px;
+    max-height: 400px;
     left:-10px;
     top:100px;
     background-color:#6d84b4;
@@ -103,10 +107,8 @@ body {
 {
     position: relative;
     width:80px;
-    height:13px;
-    top:16px;
-    left:630px;
-    top: 20px;
+    height:17px;
+    top: 50px;
     padding: 20px;
     display: inline-block;
     z-index: 1;
@@ -128,8 +130,6 @@ body {
     border: 3px solid white;
     width:640px;
     height:280px;
-    left: 630px;
-    top: 75px;
     pointer-events:none;
 }
 #profileInfo
@@ -151,8 +151,6 @@ body {
     border: 3px solid white;
     width:640px;
     height:280px;
-    left: 630px;
-    top: 75px;
     opacity: 0;
     color: #dfe3ee;
     font-family:Calibri;
@@ -285,9 +283,13 @@ body {
     opacity:0;
 
 }
+.margarita {
+    font-family: Calibri;
+    line-height: 25px;
+    opacity:0;
+}
 #margaritaTitle
 {
-    position: absolute;
     top: 45px;
     left: 20px;
     font-size: 30px;
@@ -295,7 +297,6 @@ body {
 }
 #margaritaJob
 {
-     position:absolute;
     top:75px;
     left:20px;
     font-size:30px;
@@ -303,13 +304,13 @@ body {
 }
 #margaritaInfo
 {
-    position:absolute;
     top: 120px;
     left: 20px;
     font-size: 20px;
     font-family:Calibri;
     line-height: 30px;
 }
+
 #workBox
 {
     position:absolute;
@@ -317,21 +318,15 @@ body {
     border: 3px solid white;
     width:640px;
     height:280px;
-    left: 630px;
-    top: 75px;
     opacity:0;
     color: #dfe3ee;
    
 }
 #educationBox
 {
-    position:absolute;
-    background-color: ;
     border: 3px solid white;
     width:640px;
     height:280px;
-    left: 630px;
-    top: 75px;
     opacity: 0
 }
 #brock
@@ -373,8 +368,6 @@ body {
     border: 3px solid white;
     width:640px;
     height:280px;
-    left: 630px;
-    top: 75px;
     opacity: 0;
 }
 #contactInfo
@@ -409,47 +402,47 @@ body {
 }
 #block1
 {
-    position:absolute;
-    left: 633px;
-    top: 60px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
     opacity:1;
    
     
 }
 #block2
 {
-    position:absolute;
-    left: 763px;
-    top: 60px;
+    position:inherit;
+    left: 170px;
+    top: 65px;
     
     
 }
 #block3
 {
-    position:absolute;
-    left: 893px;
-    top: 60px;
+    position:inherit;
+    left: 300px;
+    top: 65px;
    
   
 }
 #block4 {
-    position:absolute;
-    left: 1023px;
-    top: 60px;
+    position:inherit;
+    left: 430px;
+    top: 65px;
     
     
 }
 #block5
 {
     position:absolute;
-    left: 1154px;
-    top: 60px;
+    left: 560px;
+    top: 65px;
     
    
 }
 
-.full
-{
-    opacity:1;
+.full {
+    opacity: 1;
     text-decoration: underline;
+    background-color: #6d84b4;
 }

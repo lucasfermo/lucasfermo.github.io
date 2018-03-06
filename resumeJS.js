@@ -25,22 +25,57 @@ $(document).ready(function () {
 	);
 });
 //Work buttons
+$(document).ready(function () {
+    $("#bellDiv").click(function () {
+        $(this).addClass("shaded");
+        $("#margaritaDiv").removeClass("shaded");
+        $("#lowesDiv").removeClass("shaded")
+        $("#burnacDiv").removeClass("shaded")
+        $(".margarita").css("opacity", 0);
+        $(".burnac").css("opacity", 0);
+        $(".lowes").css("opacity", 0)
+        $(".bell").css("opacity",1)
+    });
+})
+
+$(document).ready(function () {
+    $("#burnacDiv").click(function () {
+        $(this).addClass("shaded");
+        $("#margaritaDiv").removeClass("shaded");
+        $("#lowesDiv").removeClass("shaded")
+        $("#bellDiv").removeClass("shaded")
+        $(".margarita").css("opacity", 0);
+        $(".burnac").css("opacity", 1);
+        $(".lowes").css("opacity", 0)
+        $(".bell").css("opacity",0)
+    });
+})
+
+
 $(document).ready(function()
 {
 	$("#lowesDiv").click(function () {
 		$(this).addClass("shaded");
-		$("#margaritaDiv").removeClass("shaded");
+        $("#margaritaDiv").removeClass("shaded");
+        $("#burnacDiv").removeClass("shaded");
+        $("bellDiv").removeClass("shaded")
 		$(".margarita").css("opacity",0);
-		$(".lowes").css("opacity",1);
+        $(".lowes").css("opacity", 1);
+        $(".burnac").css("opacity", 0);
+        $(".bell").css("opacity", 0)
 	});
 })
 $(document).ready(function()
 {
 	$("#margaritaDiv").click(function () {
 		$(this).addClass("shaded");
-		$("#lowesDiv").removeClass("shaded");
+        $("#lowesDiv").removeClass("shaded");
+        $("#burnacDiv").removeClass("shaded");
+        $("#bellDiv").removeClass("shaded")
 		$(".margarita").css("opacity", 1);
-		$(".lowes").css("opacity", 0);
+        $(".lowes").css("opacity", 0);
+        $(".burnac").css("opacity", 0);
+        $(".bell").css("opacity", 0)
 	})
 })
 $(document).ready(function()
